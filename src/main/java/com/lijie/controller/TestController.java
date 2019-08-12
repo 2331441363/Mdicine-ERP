@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class TestController {
 	@RequestMapping("a.do")
 	public void a(HttpSession session) {
-		System.out.println("==========11");
+		System.out.println("==========1122");
 		session.setAttribute("name", "lijie");
 	}
 }
